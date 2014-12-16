@@ -1,5 +1,8 @@
 # Purescript Context
 
+[![Build Status](https://travis-ci.org/Fresheyeball/purescript-context.svg)](https://travis-ci.org/Fresheyeball/purescript-context)
+
+
 This is a tiny purescript package to get you the Global JavaScript Context.
 It exposes one value, which is `context`.
 
