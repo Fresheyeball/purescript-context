@@ -1,0 +1,18 @@
+{
+  "name": "purescript-context",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "**/*Test.purs",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "example",
+    "tmp"
+  ],
+  "version": "0.0.0",
+  "devDependencies": {
+    "purescript-mocha": "~0.0.3",
+    "purescript-chai": "~0.0.3"
+  }
+}
