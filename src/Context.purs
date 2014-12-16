@@ -1,7 +1,5 @@
 module Context where
 
-foreign import data Context :: *
-
 foreign import context """
   var context;
   try {
