@@ -21,6 +21,7 @@ paths =
       bower_components/purescript-*/src/**/*.purs
       bower_components/purescript-*/src/**/*.purs.hs
       src/**/*.purs
+      test/**/*.purs
     ]>
     dest: "tmp"
 
