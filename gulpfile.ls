@@ -40,10 +40,12 @@ build = (k) -> ->
   o   = options[k]
   psc = gulp-purescript.psc o
   lsc = gulp-livescript bare : true
-  fil = gulp-filter (file) ->
+  fil = gulp-filter ({path}) ->
     if k is "test"
-    then not /Main.purs/.test file.path
-    else not /Test/ig.test file.path
+    # This explictly filters out the bower_components version of Context.purs
+    # because the testing tools Mocha and Chai depend on Context (testing has a cyclical dependency)
+    then (not /Main.purs/.test path and not /bower_components\/purescript-context\/src\/Context.purs/.test path)
+    else not /Test/ig.test path
 
   psc.on "error" ({message}) ->
     console.error message
