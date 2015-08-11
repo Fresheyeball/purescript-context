@@ -12,8 +12,6 @@
   ],
   "version": "0.0.3",
   "devDependencies": {
-    "purescript-mocha": "~0.0.3",
-    "purescript-chai": "~0.0.3",
-    "purescript-oo-ffi": "~0.0.3"
+    "purescript-spec": "~0.7.1"
   }
 }

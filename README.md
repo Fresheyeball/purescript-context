@@ -7,7 +7,7 @@
 This is a tiny purescript package to get you the Global JavaScript Context.
 It exposes one function, which is `getContext`.
 
-```haskell
+```purescript
 getContext >>= \context ->
   -- In a browser
   context == window
