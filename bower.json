@@ -11,6 +11,10 @@
     "tmp"
   ],
   "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Fresheyeball/purescript-context.git"
+  },
   "devDependencies": {
     "purescript-spec": "~0.7.1"
   }
